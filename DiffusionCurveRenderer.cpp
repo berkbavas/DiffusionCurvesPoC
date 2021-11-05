@@ -1,6 +1,6 @@
 #include "DiffusionCurveRenderer.h"
 #include "Constants.h"
-#include "Util.h"
+#include "Utils.h"
 
 void DiffusionCurveRenderer::render(ColorCurve curve, Image *image)
 {

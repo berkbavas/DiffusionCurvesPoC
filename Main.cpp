@@ -9,14 +9,14 @@
 
 int main() {
 
-    qInfo() << "Working directory is" << WORKING_DIR.absolutePath();
+    qInfo() << "Working directory is" << QDir().absolutePath();
 
     if(!OUTPUT_DIR.exists())
     {
         qInfo() << "Output directory" << OUTPUT_DIR.absolutePath()<< "does not exist.";
         qInfo() << "Creating output directory...";
 
-        if(!WORKING_DIR.mkdir(OUTPUT_DIR_NAME))
+        if(!QDir().mkdir(OUTPUT_DIR_NAME))
         {
             qCritical() << "Could not create output directory.";
             qCritical() << "Exiting...";

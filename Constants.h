@@ -15,7 +15,5 @@ const QDir XML_DIR = QDir(XML_DIR_NAME);
 const QString OUTPUT_DIR_NAME = "Output";
 const QDir OUTPUT_DIR = QDir(OUTPUT_DIR_NAME);
 
-const QDir WORKING_DIR = QDir();
-
 
 #endif // CONSTANTS_H
