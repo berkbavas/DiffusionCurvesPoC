@@ -48,7 +48,7 @@ int main() {
         qInfo() << "Rendering test curve...";
         DiffusionCurveRenderer::render(curve, image);
 
-        QString path = OUTPUT_DIR.absoluteFilePath("test.png");
+        QString path = OUTPUT_DIR.absoluteFilePath("test.jpg");
 
         if(!image->save(path))
             qInfo() << "Could not save test curve.";
@@ -85,7 +85,7 @@ int main() {
         DiffusionCurveRenderer::render(curves, image);
 
         int index = filename.lastIndexOf(".");
-        filename.remove(index, filename.length() - index).append(".png");
+        filename.remove(index, filename.length() - index).append(".jpg");
         path = OUTPUT_DIR.absoluteFilePath(filename);
 
         if(!image->save(path))
