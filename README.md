@@ -13,32 +13,30 @@ I found those XML files [here](https://www.labri.fr/perso/barla/blog/?page_id=25
 
 Rendering the images may take some time (~5 seconds) as the algorithm run on CPU.
 
-## Samples
+## Output
 Following images are rendered using this algorithm.
 
-<img src="samples/zephyr.jpg" width="512" height="512">
-
+<img align="left" src="Output/zephyr.jpg" width="128" height="128">
 <img align="left" src="Output/astray.jpg" width="128" height="128">
-<img align="left" src="Output/behindthecurtain.jpg" width="128" height="128">
 <img align="left" src="Output/blueapple.jpg" width="128" height="128">
-<img src="samples/dolphin.jpg" width="128" height="128">
+<img src="Output/dolphin.jpg" width="128" height="128">
 
 <img align="left" src="Output/drape.jpg" width="128" height="128">
 <img align="left" src="Output/face.jpg" width="128" height="128">
 <img align="left" src="Output/fille.jpg" width="128" height="128">
-<img src="samples/fish.jpg" width="128" height="128">
+<img src="Output/fish.jpg" width="128" height="128">
 
 <img align="left" src="Output/flower.jpg" width="128" height="128">
 <img align="left" src="Output/fruits.jpg" width="128" height="128">
 <img align="left" src="Output/glass_droplet_blur.jpg" width="128" height="128">
-<img src="samples/gm_cup.jpg" width="128" height="128">
+<img src="Output/gm_cup.jpg" width="128" height="128">
 
 <img align="left" src="Output/gm_flower.jpg" width="128" height="128">
 <img align="left" src="Output/gm_grapes.jpg" width="128" height="128">
 <img align="left" src="Output/lady_bug.jpg" width="128" height="128">
-<img src="samples/pink_flowers.jpg" width="128" height="128">
+<img src="Output/pink_flowers.jpg" width="128" height="128">
 
 <img align="left" src="Output/poivron.jpg" width="128" height="128">
 <img align="left" src="Output/roses.jpg" width="128" height="128">
 <img align="left" src="Output/roses_spirales.jpg" width="128" height="128">
-<img src="samples/tomatos.jpg" width="128" height="128">
+<img src="Output/tomatos.jpg" width="128" height="128">
