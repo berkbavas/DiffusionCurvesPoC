@@ -1,20 +1,17 @@
 # Diffusion Curves
-An algorithm for creating smooth-shaded images where the colors are constrained by several arbitrary curves.
+This application is for rendering smooth-shaded images where the colors are constrained by several arbitrary curves.
 I implemented the algorithm described [here](https://people.engr.tamu.edu/schaefer/teaching/645_Fall2015/lectures/diffusion.ppt).
 The original paper is [here](https://maverick.inria.fr/Publications/2008/OBWBTS08/).
 
-XML files contain definitions of several Bezier curves and coloring for those curves.
+XML files contain definitions of several Bezier curves and color points.
 I found those XML files [here](https://www.labri.fr/perso/barla/blog/?page_id=251).
 
-
-## Build & Run
-- Qt 5.xx
-- MSVC++ 14.xx
-
-Rendering the images may take some time (~5 seconds) as the algorithm run on CPU.
+## Build
+1) Install `Qt 5.x.y`.
+2) Open `DiffusionCurvesPoC.pro` with `QtCreator` and build & run it. 
 
 ## Output
-Following images are rendered using this algorithm.
+Following images are rendered using this application.
 
 <img align="left" src="Output/zephyr.jpg" width="128" height="128">
 <img align="left" src="Output/astray.jpg" width="128" height="128">

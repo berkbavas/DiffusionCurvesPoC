@@ -43,7 +43,6 @@ ColorPoints::ColorPoints(QVector<ColorPoint> points)
 
     }
 
-
     QVector<ColorPoint> temp;
 
     // Make sure all start points are different
