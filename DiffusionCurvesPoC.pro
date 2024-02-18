@@ -6,20 +6,20 @@ CONFIG -= app_bundle
 DEFINES -= DEBUG
 
 SOURCES += \
-        ColorCurve.cpp \
-        ColorPoints.cpp \
-        ConstrainedImage.cpp \
-        DiffusionCurveRenderer.cpp \
-        Image.cpp \
-        Main.cpp
+        Sources/ColorCurve.cpp \
+        Sources/ColorPoints.cpp \
+        Sources/ConstrainedImage.cpp \
+        Sources/DiffusionCurveRenderer.cpp \
+        Sources/Image.cpp \
+        Sources/Main.cpp
 
 HEADERS += \
-    Bezier.h \
-    ColorCurve.h \
-    ColorPoints.h \
-    Constants.h \
-    ConstrainedImage.h \
-    DiffusionCurveRenderer.h \
-    Image.h \
-    Structs.h \
-    Utils.h
+    Sources/Bezier.h \
+    Sources/ColorCurve.h \
+    Sources/ColorPoints.h \
+    Sources/Constants.h \
+    Sources/ConstrainedImage.h \
+    Sources/DiffusionCurveRenderer.h \
+    Sources/Image.h \
+    Sources/Structs.h \
+    Sources/Utils.h
